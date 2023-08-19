@@ -278,5 +278,14 @@ img {
   
     .listings {
         grid-template-columns: repeat(2, 1fr);
+    }.featured-wrapper {
+        --gap:1rem;
+        --num-cols:2;
     }
+  
+    .featured .main {
+        grid-column: span 2;
+    }
+  
+    
 }
