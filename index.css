@@ -215,6 +215,33 @@ img {
 }
 
 /* Featured End */
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eeeeee;
+    padding: 1rem 0;
+}
+
+.footer .left-menu, .right-menu {
+    display: flex;
+}
+
+.footer .left-menu li {
+    padding-right: 1rem;
+}
+.footer .right-menu li {
+    padding-left: 1rem;
+}
+
+.center {
+    display: flex;
+}
+
+.center a {
+    margin: auto;
+    font-size: 2rem;
+}
 
 @media screen and (max-width: 940px) {
     .top-bar {
@@ -285,6 +312,9 @@ img {
   
     .featured .main {
         grid-column: span 2;
+    }
+    .footer .left-menu, .right-menu {
+        flex-direction: column;
     }
   
     
